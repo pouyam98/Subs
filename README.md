@@ -1,6 +1,10 @@
 # Subs
 Subscription content.
-🔗 https://t.me/surfboardv2ray
+
+[Link](https://raw.githubusercontent.com/Surfboardv2ray/Subs/main/Raw)
+
+# Telegram Channel
+🔗 https://t.me/surfboardv2ra
 
 # Visitors
 
