@@ -1,5 +1,5 @@
 # Subs
-Subscription content.
+V2ray Subscription content.
 
 [Subscription Link in Base64](https://raw.githubusercontent.com/Surfboardv2ray/Subs/main/Raw)
 
