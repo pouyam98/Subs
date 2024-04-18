@@ -102,7 +102,7 @@
           "domainStrategy": "AsIs",
           "fragment": {
             "packets": "tlshello",
-            "length": "10-12",
+            "length": "5-10",
             "interval": "3-5"
           }
         },
@@ -253,7 +253,7 @@
           "domainStrategy": "AsIs",
           "fragment": {
             "packets": "tlshello",
-            "length": "10-12",
+            "length": "5-10",
             "interval": "3-5"
           }
         },
@@ -404,7 +404,7 @@
           "domainStrategy": "AsIs",
           "fragment": {
             "packets": "tlshello",
-            "length": "10-12",
+            "length": "5-10",
             "interval": "3-5"
           }
         },
@@ -555,7 +555,7 @@
           "domainStrategy": "AsIs",
           "fragment": {
             "packets": "tlshello",
-            "length": "10-12",
+            "length": "5-10",
             "interval": "3-5"
           }
         },
@@ -706,7 +706,7 @@
           "domainStrategy": "AsIs",
           "fragment": {
             "packets": "tlshello",
-            "length": "10-12",
+            "length": "5-10",
             "interval": "3-5"
           }
         },
@@ -857,7 +857,7 @@
           "domainStrategy": "AsIs",
           "fragment": {
             "packets": "tlshello",
-            "length": "10-12",
+            "length": "5-10",
             "interval": "3-5"
           }
         },
@@ -1008,7 +1008,7 @@
           "domainStrategy": "AsIs",
           "fragment": {
             "packets": "tlshello",
-            "length": "10-12",
+            "length": "5-10",
             "interval": "3-5"
           }
         },
@@ -1159,7 +1159,7 @@
           "domainStrategy": "AsIs",
           "fragment": {
             "packets": "tlshello",
-            "length": "10-12",
+            "length": "5-10",
             "interval": "3-5"
           }
         },
@@ -1310,7 +1310,7 @@
           "domainStrategy": "AsIs",
           "fragment": {
             "packets": "tlshello",
-            "length": "10-12",
+            "length": "5-10",
             "interval": "3-5"
           }
         },
