@@ -8,21 +8,24 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
-    - name: Convert to base64
+    - name: Convert Realm to base64
       run: |
           content=$(cat Realm | base64 | tr -d '\n')
             echo "$content" > Raw
-       
+    - name: Convert Frag to base64
+      run: |
+          content=$(cat Frag | base64 | tr -d '\n')
+            echo "$content" > Frag64
     - name: Check for Base64 Changes
       id: changes64
       run: |
             git diff --quiet && echo 'No changes' || echo '::set-output name=changed::true'   
-      
     - name: Commit and Push Base64
       if: steps.changes64.outputs.changed == 'true'   
       run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add Raw
+          git add Frag64
           git commit -m "Update Subscription"
           git push
