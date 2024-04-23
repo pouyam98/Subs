@@ -6,6 +6,10 @@ V2ray Subscription content.
 # Telegram Channel
 🔗 https://t.me/surfboardv2ray
 
+#Stargazers
+
+[![Stargazers repo roster for @Surfboardv2ray/Subs](https://reporoster.com/stars/Surfboardv2ray/Subs)](https://github.com/Surfboardv2ray/Subs/stargazers)
+
 # Visitors
 
 
