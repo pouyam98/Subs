@@ -90,9 +90,9 @@
                 "protocol": "freedom",
                 "settings": {
                     "fragment": {
-                        "packets": "1-5",
+                        "packets": "tlshello",
                         "length": "1-5",
-                        "interval": "1-5"
+                        "interval": "5-10"
                     }
                 },
                 "streamSettings": {
@@ -238,9 +238,9 @@
                 "protocol": "freedom",
                 "settings": {
                     "fragment": {
-                        "packets": "1-5",
+                        "packets": "tlshello",
                         "length": "1-5",
-                        "interval": "1-5"
+                        "interval": "5-10"
                     }
                 },
                 "streamSettings": {
@@ -386,9 +386,9 @@
                 "protocol": "freedom",
                 "settings": {
                     "fragment": {
-                        "packets": "1-5",
+                        "packets": "tlshello",
                         "length": "1-5",
-                        "interval": "1-5"
+                        "interval": "5-10"
                     }
                 },
                 "streamSettings": {
@@ -534,9 +534,9 @@
                 "protocol": "freedom",
                 "settings": {
                     "fragment": {
-                        "packets": "1-5",
+                        "packets": "tlshello",
                         "length": "1-5",
-                        "interval": "1-5"
+                        "interval": "5-10"
                     }
                 },
                 "streamSettings": {
@@ -682,9 +682,9 @@
                 "protocol": "freedom",
                 "settings": {
                     "fragment": {
-                        "packets": "1-5",
+                        "packets": "tlshello",
                         "length": "1-5",
-                        "interval": "1-5"
+                        "interval": "5-10"
                     }
                 },
                 "streamSettings": {
@@ -830,9 +830,9 @@
                 "protocol": "freedom",
                 "settings": {
                     "fragment": {
-                        "packets": "1-5",
+                        "packets": "tlshello",
                         "length": "1-5",
-                        "interval": "1-5"
+                        "interval": "5-10"
                     }
                 },
                 "streamSettings": {
@@ -978,9 +978,9 @@
                 "protocol": "freedom",
                 "settings": {
                     "fragment": {
-                        "packets": "1-5",
+                        "packets": "tlshello",
                         "length": "1-5",
-                        "interval": "1-5"
+                        "interval": "5-10"
                     }
                 },
                 "streamSettings": {
@@ -1396,9 +1396,9 @@
                 "protocol": "freedom",
                 "settings": {
                     "fragment": {
-                        "packets": "1-5",
+                        "packets": "tlshello",
                         "length": "1-5",
-                        "interval": "1-5"
+                        "interval": "5-10"
                     }
                 },
                 "streamSettings": {
@@ -1523,9 +1523,9 @@
                 "protocol": "freedom",
                 "settings": {
                     "fragment": {
-                        "packets": "1-5",
+                        "packets": "tlshello",
                         "length": "1-5",
-                        "interval": "1-5"
+                        "interval": "5-10"
                     },
                     "domainStrategy": "UseIP"
                 },
