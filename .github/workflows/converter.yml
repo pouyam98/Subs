@@ -24,3 +24,20 @@ jobs:
           git add Raw
           git commit -m "Update Subscription"
           git push
+    - name: Convert Star to base64
+      run: |
+          content=$(cat StarStruck/Star | base64 | tr -d '\n')
+            echo "$content" > StarStruck/Star64
+    - name: Check for Base64 Changes
+      id: changesS
+      run: |
+            git diff --quiet && echo 'No changes' || echo '::set-output name=changed::true'   
+    - name: Commit and Push Base64
+      if: steps.changesS.outputs.changed == 'true'   
+      run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add StarStruck/Star64
+          git commit -m "Update Subscription"
+          git push
+
