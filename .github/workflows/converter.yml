@@ -38,8 +38,12 @@ jobs:
       run: |
           python StarStruck/address_rename.py
           
-    - name: Push Renamed
-      if: steps.changesRenamed.outputs.changed == 'true'
+    - name: Check for Renamed Base64 Changes
+      id: changesRenamed
+      run: |
+            git diff --quiet && echo 'No changes' || echo '::set-output name=changed::true'   
+    - name: Commit and Push Renamed Base64
+      if: steps.changesRenamed.outputs.changed == 'true'   
       run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
@@ -63,5 +67,6 @@ jobs:
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add StarStruck/Star64
-          git commit -m "Update Subscription"
+          timestamp=$(TZ='Asia/Tehran' date)
+          git commit -m "✅Updated on ${timestamp}"
           git push
