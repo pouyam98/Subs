@@ -36,7 +36,7 @@ jobs:
 
     - name: Run script to rename address
       run: |
-          python StarStruck/star_rename.py
+          python StarStruck/address_rename.py
           
     - name: Push Renamed
       if: steps.changesRenamed.outputs.changed == 'true'
