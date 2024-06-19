@@ -41,7 +41,7 @@ def rename_vless_address(proxy, new_address):
         print("Error processing vless proxy: ", e)
         return None
 
-def process_proxies(input_file, ips_file, output_file_prefix):
+def process_proxies(input_file, ips_file, output_file):
     # Read the single proxy configuration
     with open(input_file, 'r') as f:
         proxy = f.readline().strip()
@@ -51,20 +51,19 @@ def process_proxies(input_file, ips_file, output_file_prefix):
         ips = [line.strip() for line in ip_f.readlines()]
 
     # Process each IP address and create a new configuration
-    for i, ip in enumerate(ips):
-        if proxy.startswith('vmess://'):
-            proxy = rename_vmess_address(proxy, ip)
-        elif proxy.startswith('vless://'):
-            proxy = rename_vless_address(proxy, ip)
+    with open(output_file, 'w') as out_f:
+        for i, ip in enumerate(ips):
+            if proxy.startswith('vmess://'):
+                renamed_proxy = rename_vmess_address(proxy, ip)
+            elif proxy.startswith('vless://'):
+                renamed_proxy = rename_vless_address(proxy, ip)
 
-        if proxy is not None:
-            output_file = f'{output_file_prefix}_{i+1}.txt'
-            with open(output_file, 'w') as out_f:
-                out_f.write(proxy + '\n')
+            if renamed_proxy is not None:
+                out_f.write(renamed_proxy + '\n')
 
 # Example usage
 input_file = 'IPTest/config.txt'
 ips_file = 'IPTest/ips.txt'
-output_file_prefix = 'IPTest/output'
+output_file = 'IPTest/output'
 
-process_proxies(input_file, ips_file, output_file_prefix)
+process_proxies(input_file, ips_file, output_file)
