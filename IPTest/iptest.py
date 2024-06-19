@@ -1,6 +1,5 @@
 import base64
 import json
-import os
 
 # Global variable to keep track of processed proxies
 proxy_counter = 0
@@ -54,14 +53,14 @@ def process_proxies(input_file, ips_file, output_file_prefix):
     # Process each IP address and create a new configuration
     for i, ip in enumerate(ips):
         if proxy.startswith('vmess://'):
-            renamed_proxy = rename_vmess_address(proxy, ip)
+            proxy = rename_vmess_address(proxy, ip)
         elif proxy.startswith('vless://'):
-            renamed_proxy = rename_vless_address(proxy, ip)
+            proxy = rename_vless_address(proxy, ip)
 
-        if renamed_proxy is not None:
+        if proxy is not None:
             output_file = f'{output_file_prefix}_{i+1}.txt'
             with open(output_file, 'w') as out_f:
-                out_f.write(renamed_proxy + '\n')
+                out_f.write(proxy + '\n')
 
 # Example usage
 input_file = 'IPTest/config.txt'
