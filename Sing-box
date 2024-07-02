@@ -79,7 +79,7 @@
                 "altho-ghitisim-ortan-oreco-niseth-tsomeoft-hesepfsdad-wcre.pages.dev",
                 "162.159.19.167",
                 "45.131.210.161",
-                "23.247.163.83",
+                "45.67.215.22",
                 "103.172.110.184",
                 "[2606:4700:310c::ac42:2f96]",
                 "[2606:4700:310c::ac42:2c6a]"
@@ -92,7 +92,7 @@
                 "altho-ghitisim-ortan-oreco-niseth-tsomeoft-hesepfsdad-wcre.pages.dev",
                 "162.159.19.167",
                 "45.131.210.161",
-                "23.247.163.83",
+                "45.67.215.22",
                 "103.172.110.184",
                 "[2606:4700:310c::ac42:2f96]",
                 "[2606:4700:310c::ac42:2c6a]"
@@ -205,7 +205,7 @@
         },
         {
             "type": "vless",
-            "server": "23.247.163.83",
+            "server": "45.67.215.22",
             "server_port": 443,
             "uuid": "d6c761bd-f13c-4d95-9d5b-6af358079e75",
             "domain_strategy": "prefer_ipv6",
@@ -231,7 +231,7 @@
                 "path": "/fAhSVM6qcY0wesPw",
                 "type": "ws"
             },
-            "tag": "23.247.163.83"
+            "tag": "45.67.215.22"
         },
         {
             "type": "vless",
