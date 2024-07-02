@@ -77,10 +77,10 @@
             "outbounds": [
                 "Best-Ping",
                 "altho-ghitisim-ortan-oreco-niseth-tsomeoft-hesepfsdad-wcre.pages.dev",
-                "118nahal.ir",
-                "172.64.146.223",
-                "172.66.47.150",
-                "172.66.44.106",
+                "162.159.19.167",
+                "45.131.210.161",
+                "23.247.163.83",
+                "103.172.110.184",
                 "[2606:4700:310c::ac42:2f96]",
                 "[2606:4700:310c::ac42:2c6a]"
             ]
@@ -90,10 +90,10 @@
             "tag": "Best-Ping",
             "outbounds": [
                 "altho-ghitisim-ortan-oreco-niseth-tsomeoft-hesepfsdad-wcre.pages.dev",
-                "118nahal.ir",
-                "172.64.146.223",
-                "172.66.47.150",
-                "172.66.44.106",
+                "162.159.19.167",
+                "45.131.210.161",
+                "23.247.163.83",
+                "103.172.110.184",
                 "[2606:4700:310c::ac42:2f96]",
                 "[2606:4700:310c::ac42:2c6a]"
             ],
@@ -145,7 +145,7 @@
         },
         {
             "type": "vless",
-            "server": "118nahal.ir",
+            "server": "162.159.19.167",
             "server_port": 443,
             "uuid": "d6c761bd-f13c-4d95-9d5b-6af358079e75",
             "domain_strategy": "prefer_ipv6",
@@ -171,11 +171,11 @@
                 "path": "/LZDJky4AXzekaQPD",
                 "type": "ws"
             },
-            "tag": "118nahal.ir"
+            "tag": "162.159.19.167"
         },
         {
             "type": "vless",
-            "server": "172.64.146.223",
+            "server": "45.131.210.161",
             "server_port": 443,
             "uuid": "d6c761bd-f13c-4d95-9d5b-6af358079e75",
             "domain_strategy": "prefer_ipv6",
@@ -201,11 +201,11 @@
                 "path": "/tWEgIdaxENYovnsm",
                 "type": "ws"
             },
-            "tag": "172.64.146.223"
+            "tag": "45.131.210.161"
         },
         {
             "type": "vless",
-            "server": "172.66.47.150",
+            "server": "23.247.163.83",
             "server_port": 443,
             "uuid": "d6c761bd-f13c-4d95-9d5b-6af358079e75",
             "domain_strategy": "prefer_ipv6",
@@ -231,11 +231,11 @@
                 "path": "/fAhSVM6qcY0wesPw",
                 "type": "ws"
             },
-            "tag": "172.66.47.150"
+            "tag": "23.247.163.83"
         },
         {
             "type": "vless",
-            "server": "172.66.44.106",
+            "server": "103.172.110.184",
             "server_port": 443,
             "uuid": "d6c761bd-f13c-4d95-9d5b-6af358079e75",
             "domain_strategy": "prefer_ipv6",
@@ -261,7 +261,7 @@
                 "path": "/8Gqt7gj7YcQzH0ag",
                 "type": "ws"
             },
-            "tag": "172.66.44.106"
+            "tag": "103.172.110.184"
         },
         {
             "type": "vless",
