@@ -78,7 +78,7 @@
                 "Best-Ping",
                 "altho-ghitisim-ortan-oreco-niseth-tsomeoft-hesepfsdad-wcre.pages.dev",
                 "www.speedtest.net",
-                "crackthecode.ftp.sh",
+                "172.64.146.223",
                 "172.66.47.150",
                 "172.66.44.106",
                 "[2606:4700:310c::ac42:2f96]",
@@ -91,7 +91,7 @@
             "outbounds": [
                 "altho-ghitisim-ortan-oreco-niseth-tsomeoft-hesepfsdad-wcre.pages.dev",
                 "www.speedtest.net",
-                "crackthecode.ftp.sh",
+                "172.64.146.223",
                 "172.66.47.150",
                 "172.66.44.106",
                 "[2606:4700:310c::ac42:2f96]",
@@ -175,7 +175,7 @@
         },
         {
             "type": "vless",
-            "server": "crackthecode.ftp.sh",
+            "server": "172.64.146.223",
             "server_port": 443,
             "uuid": "d6c761bd-f13c-4d95-9d5b-6af358079e75",
             "domain_strategy": "prefer_ipv6",
@@ -201,7 +201,7 @@
                 "path": "/tWEgIdaxENYovnsm",
                 "type": "ws"
             },
-            "tag": "crackthecode.ftp.sh"
+            "tag": "172.64.146.223"
         },
         {
             "type": "vless",
