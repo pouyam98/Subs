@@ -5,7 +5,7 @@ V2ray Subscription content.
 
 ♦️ [Subscription Link in UTF-8 (Hiddify)](https://raw.githubusercontent.com/Surfboardv2ray/Subs/main/Realm)
 
-♦️ [Subscription Link (TLS Fragmentaion)](https://raw.githubusercontent.com/Surfboardv2ray/Subs/main/Frag)
+♦️ [Subscription Link (Fragment)](https://raw.githubusercontent.com/Surfboardv2ray/Subs/main/Frag)
 
 # Extra
 Warp and Edge Subscriptions
