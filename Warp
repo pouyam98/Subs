@@ -117,8 +117,8 @@
         "2606:4700:110:83df:b5f7:40cc:db10:97cf/128"
       ],
       "private_key": "SPB2dw0vysW6btf176VqSBlmL/ts+gYbz/JA6tK2QFg=",
-      "server": "162.159.192.126",
-      "server_port": 1010,
+      "server": "162.159.192.76",
+      "server_port": 1018,
       "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
       "reserved": "AAAA",
       "mtu": 1280,
