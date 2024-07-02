@@ -77,7 +77,7 @@
             "outbounds": [
                 "Best-Ping",
                 "altho-ghitisim-ortan-oreco-niseth-tsomeoft-hesepfsdad-wcre.pages.dev",
-                "www.speedtest.net",
+                "118nahal.ir",
                 "172.64.146.223",
                 "172.66.47.150",
                 "172.66.44.106",
@@ -90,7 +90,7 @@
             "tag": "Best-Ping",
             "outbounds": [
                 "altho-ghitisim-ortan-oreco-niseth-tsomeoft-hesepfsdad-wcre.pages.dev",
-                "www.speedtest.net",
+                "118nahal.ir",
                 "172.64.146.223",
                 "172.66.47.150",
                 "172.66.44.106",
@@ -145,7 +145,7 @@
         },
         {
             "type": "vless",
-            "server": "www.speedtest.net",
+            "server": "118nahal.ir",
             "server_port": 443,
             "uuid": "d6c761bd-f13c-4d95-9d5b-6af358079e75",
             "domain_strategy": "prefer_ipv6",
@@ -171,7 +171,7 @@
                 "path": "/LZDJky4AXzekaQPD",
                 "type": "ws"
             },
-            "tag": "www.speedtest.net"
+            "tag": "118nahal.ir"
         },
         {
             "type": "vless",
