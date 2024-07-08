@@ -12,7 +12,8 @@ def extract_domains(input_file, output_file):
             if domain:
                 try:
                     # Attempt to resolve the domain to an IP address
-                    socket.gethostbyname(domain)
+                    ip_address = socket.gethostbyname(domain)
+                    print(f"Domain: {domain}, IP Address: {ip_address}")
                     domains.append(domain)
                 except (socket.gaierror, socket.error):
                     # Skip if the domain can't be resolved
