@@ -27,7 +27,7 @@ jobs:
 
     - name: Run extraction script
       run: |
-        python domains.py
+        python Domains/domains.py
     - name: Check for new changes
       id: changes
       run: |
