@@ -11,5 +11,5 @@ def extract_domains(input_file, output_file):
             f.write(f"{domain}\n")
 
 if __name__ == "__main__":
-    extract_domains('input.json', 'output.txt')
+    extract_domains('Domains/input.json', 'Domains/output.txt')
 
