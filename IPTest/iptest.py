@@ -15,6 +15,7 @@ def rename_vmess_address(proxy, new_address):
         print("Decoded VMess proxy JSON:", decoded_str)  # Debugging
         proxy_json = json.loads(decoded_str)
         proxy_json['add'] = new_address
+        proxy_json['ps'] = new_address  # Set remarks to new address
         proxy_counter += 1
         encoded_str = base64.b64encode(json.dumps(proxy_json).encode('utf-8')).decode('utf-8')
         renamed_proxy = 'vmess://' + encoded_str
@@ -29,11 +30,12 @@ def rename_vless_address(proxy, new_address):
     try:
         parts = proxy.split('@')
         userinfo = parts[0]
-        hostinfo = parts[1]
+        hostinfo = parts[1].split('#')[0]
         hostinfo_parts = hostinfo.split(':')
         hostinfo_parts[0] = new_address
         hostinfo = ':'.join(hostinfo_parts)
-        renamed_proxy = userinfo + '@' + hostinfo
+        remarks = new_address  # Set remarks to new address
+        renamed_proxy = userinfo + '@' + hostinfo + '#' + remarks
         proxy_counter += 1
         print("Renamed VLess proxy:", renamed_proxy)  # Debugging
         return renamed_proxy
