@@ -78,9 +78,9 @@
                 "Best-Ping",
                 "altho-ghitisim-ortan-oreco-niseth-tsomeoft-hesepfsdad-wcre.pages.dev",
                 "162.159.19.167",
-                "172.65.222.97",
-                "45.67.215.22",
-                "141.101.90.224",
+                "13.226.2.37",
+                "188.114.97.227",
+                "13.32.208.91",
                 "[2606:4700:310c::ac42:2f96]",
                 "[2606:4700:310c::ac42:2c6a]"
             ]
@@ -91,9 +91,9 @@
             "outbounds": [
                 "altho-ghitisim-ortan-oreco-niseth-tsomeoft-hesepfsdad-wcre.pages.dev",
                 "162.159.19.167",
-                "172.65.222.97",
-                "45.67.215.22",
-                "141.101.90.224",
+                "13.226.2.37",
+                "188.114.97.227",
+                "13.32.208.91",
                 "[2606:4700:310c::ac42:2f96]",
                 "[2606:4700:310c::ac42:2c6a]"
             ],
@@ -175,7 +175,7 @@
         },
         {
             "type": "vless",
-            "server": "172.65.222.97",
+            "server": "13.226.2.37",
             "server_port": 443,
             "uuid": "d6c761bd-f13c-4d95-9d5b-6af358079e75",
             "domain_strategy": "prefer_ipv6",
@@ -201,11 +201,11 @@
                 "path": "/tWEgIdaxENYovnsm",
                 "type": "ws"
             },
-            "tag": "172.65.222.97"
+            "tag": "13.226.2.37"
         },
         {
             "type": "vless",
-            "server": "45.67.215.22",
+            "server": "188.114.97.227",
             "server_port": 443,
             "uuid": "d6c761bd-f13c-4d95-9d5b-6af358079e75",
             "domain_strategy": "prefer_ipv6",
@@ -231,11 +231,11 @@
                 "path": "/fAhSVM6qcY0wesPw",
                 "type": "ws"
             },
-            "tag": "45.67.215.22"
+            "tag": "188.114.97.227"
         },
         {
             "type": "vless",
-            "server": "141.101.90.224",
+            "server": "13.32.208.91",
             "server_port": 443,
             "uuid": "d6c761bd-f13c-4d95-9d5b-6af358079e75",
             "domain_strategy": "prefer_ipv6",
@@ -261,7 +261,7 @@
                 "path": "/8Gqt7gj7YcQzH0ag",
                 "type": "ws"
             },
-            "tag": "141.101.90.224"
+            "tag": "13.32.208.91"
         },
         {
             "type": "vless",
