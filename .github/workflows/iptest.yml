@@ -1,7 +1,9 @@
 name: IPTest
 on:
   push:
-    branches: [ main ]
+    paths:
+      - 'Subs/IPTest/config.txt'
+      - '.github/workflows/iptest.yml'
   workflow_dispatch:
   schedule:
     - cron: "* */24 * * *"
