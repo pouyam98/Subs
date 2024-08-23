@@ -21,9 +21,9 @@ jobs:
       run: |
           python -m pip install --upgrade pip
 
-    - name: Copy IP List
-      run: |
-          curl -o ./IPTest/ips.txt https://raw.githubusercontent.com/Surfboardv2ray/Subs/main/IPTest/ips.txt
+#    - name: Copy IP List
+#      run: |
+#          curl -o ./IPTest/ips.txt https://raw.githubusercontent.com/Surfboardv2ray/Subs/main/IPTest/ips.txt
           
     - name: Run script to create new configs
       run: |
